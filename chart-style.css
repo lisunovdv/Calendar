@@ -1,0 +1,73 @@
+* {
+    box-sizing: border-box;
+    font-family: Arial, sans-serif;
+}
+
+.chart-tooltip {
+    font-size: 12px;
+    color: #777;
+    display: inline-block;
+    position: relative;
+    box-shadow: 0 0 30px rgba(0,0,0,.35);
+}
+
+.chart-tooltip::after {
+    content: "";
+    display: block;
+    margin-left: -10px;
+    position: absolute;
+    top: -19px;
+    left: 50%;
+    border: 10px solid transparent;
+    border-bottom: 10px solid #fff;
+}
+
+.tooltip-header {
+    color: #000;
+    font-weight: normal;
+    padding-bottom: 3px;
+    border-bottom: 1px solid #dedede;
+    padding: 20px;
+    font-size: 20px;
+    text-align: center;
+}
+
+.tooltip-content {
+    display: table;
+}
+
+.tooltip-event {
+    display: table-cell;
+    max-width: 158px;
+    padding: 0 20px 20px;
+}
+
+
+.tooltip-event-header {
+    font-size: inherit;
+    color: #0a6f3b;
+    font-weight: bold;
+}
+
+.tooltip-event-content {
+    color: inherit;
+}
+
+
+
+
+/* ================================== */
+
+.wp-migx-row {
+    padding: .5rem 0;
+}
+.wp-migx-label {
+    display: inline-block;
+    margin-right: 1rem;
+    color: #000;
+    font-size: 14px;
+}
+
+.wp-migx-input {
+    display: inline-block;
+}
